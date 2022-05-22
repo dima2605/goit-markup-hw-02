@@ -1,4 +1,4 @@
-:root {
+:root{
     --primary-text-color: #757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
@@ -12,6 +12,7 @@
 body{
     font-family: Roboto sans-serif;
     background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
 }
 
 /* ---------------------logo----------------- */
@@ -91,7 +92,7 @@ body{
     letter-spacing: 0.06em;
     color: var(--white-text-color);
     font-family: inherit;
-    
+    cursor: pointer;
 }
 .hero-btn:hover, 
 .hero-btn:focus{
@@ -172,6 +173,11 @@ body{
 .menu .link-direction {
     color: var(--footer-color);
 }
+.menu .link-direction:hover,
+.menu .link-direction:focus{
+    color: var(--accent-color);
+}
+
 .menu .home-link{
     font-weight: 400;
     font-size: 14px;
@@ -196,7 +202,7 @@ body{
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     background-color: var(--third-background-color);
-
+    cursor: pointer;
 }
 .btn:hover,
 .btn:focus{
