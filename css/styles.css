@@ -163,13 +163,16 @@ body{
 .menu .link-direction {
     color: var(--footer-color);
 }
+.link-direction{
+    line-height: 1.71;
+}
 .menu .link-direction:hover,
 .menu .link-direction:focus{
     color: var(--accent-color);
 }
 
 .menu .home-link{
-    line-height: 1.71;
+   
     color: var(--white-text-color);
 }
 
