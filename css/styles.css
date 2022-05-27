@@ -96,6 +96,20 @@ body{
 .hero-btn:focus{
     background-color: var(--second-accent-color);
 }
+
+/* -----------------visually-hidden------------------- */
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
 /* --------------benefits--------------------------- */
 
 .benefits,
@@ -163,7 +177,8 @@ body{
 .menu .link-direction {
     color: var(--footer-color);
 }
-.link-direction{
+.link-direction,
+.home-link{
     line-height: 1.71;
 }
 .menu .link-direction:hover,
@@ -193,6 +208,7 @@ body{
     color: var(--title-text-color);
     background-color: var(--third-background-color);
     cursor: pointer;
+    font-family: inherit;
 }
 .btn:hover,
 .btn:focus{
